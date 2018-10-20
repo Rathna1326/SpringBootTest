@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.springboot.service.DAOTest
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 10.704 sec <<< FAILURE! - in com.springboot.service.DAOTest
+testDeleteBook(com.springboot.service.DAOTest)  Time elapsed: 0.096 sec  <<< FAILURE!
+java.lang.AssertionError: null
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.springboot.service.DAOTest.testDeleteBook(DAOTest.java:95)
+
